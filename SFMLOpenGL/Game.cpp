@@ -327,149 +327,149 @@ void Game::unload()
 
 void Game::setupPoints()
 {
-	//Declare all starting positions of the vertexes.
-	vertex[0].coordinate[0] = -0.5f;
-	vertex[0].coordinate[1] = -0.5f;
-	vertex[0].coordinate[2] = -0.5f;
+	//Declare all starting positions of the initVertexes.
+	initVertex[0].coordinate[0] = -0.5f;
+	initVertex[0].coordinate[1] = -0.5f;
+	initVertex[0].coordinate[2] = -0.5f;
 
-	vertex[1].coordinate[0] = -0.5f;
-	vertex[1].coordinate[1] = -0.5f;
-	vertex[1].coordinate[2] = 0.5f;
+	initVertex[1].coordinate[0] = -0.5f;
+	initVertex[1].coordinate[1] = -0.5f;
+	initVertex[1].coordinate[2] = 0.5f;
 
-	vertex[2].coordinate[0] = -0.5f;
-	vertex[2].coordinate[1] = 0.5f;
-	vertex[2].coordinate[2] = -0.5f;
+	initVertex[2].coordinate[0] = -0.5f;
+	initVertex[2].coordinate[1] = 0.5f;
+	initVertex[2].coordinate[2] = -0.5f;
 
-	vertex[3].coordinate[0] = 0.5f;
-	vertex[3].coordinate[1] = 0.5f;
-	vertex[3].coordinate[2] = -0.5f;
+	initVertex[3].coordinate[0] = 0.5f;
+	initVertex[3].coordinate[1] = 0.5f;
+	initVertex[3].coordinate[2] = -0.5f;
 
-	vertex[4].coordinate[0] = -0.5f;
-	vertex[4].coordinate[1] = -0.5f;
-	vertex[4].coordinate[2] = -0.5f;
+	initVertex[4].coordinate[0] = -0.5f;
+	initVertex[4].coordinate[1] = -0.5f;
+	initVertex[4].coordinate[2] = -0.5f;
 
-	vertex[5].coordinate[0] = -0.5f;
-	vertex[5].coordinate[1] = 0.5f;
-	vertex[5].coordinate[2] = -0.5f;
+	initVertex[5].coordinate[0] = -0.5f;
+	initVertex[5].coordinate[1] = 0.5f;
+	initVertex[5].coordinate[2] = -0.5f;
 
-	vertex[6].coordinate[0] = 0.5f;
-	vertex[6].coordinate[1] = -0.5f;
-	vertex[6].coordinate[2] = 0.5f;
+	initVertex[6].coordinate[0] = 0.5f;
+	initVertex[6].coordinate[1] = -0.5f;
+	initVertex[6].coordinate[2] = 0.5f;
 
-	vertex[7].coordinate[0] = -0.5f;
-	vertex[7].coordinate[1] = -0.5f;
-	vertex[7].coordinate[2] = -0.5f;
+	initVertex[7].coordinate[0] = -0.5f;
+	initVertex[7].coordinate[1] = -0.5f;
+	initVertex[7].coordinate[2] = -0.5f;
 
-	vertex[8].coordinate[0] = 0.5f;
-	vertex[8].coordinate[1] = -0.5f;
-	vertex[8].coordinate[2] = -0.5f;
+	initVertex[8].coordinate[0] = 0.5f;
+	initVertex[8].coordinate[1] = -0.5f;
+	initVertex[8].coordinate[2] = -0.5f;
 
-	vertex[9].coordinate[0] = 0.5f;
-	vertex[9].coordinate[1] = 0.5f;
-	vertex[9].coordinate[2] = -0.5f;
+	initVertex[9].coordinate[0] = 0.5f;
+	initVertex[9].coordinate[1] = 0.5f;
+	initVertex[9].coordinate[2] = -0.5f;
 
-	vertex[10].coordinate[0] = 0.5f;
-	vertex[10].coordinate[1] = -0.5f;
-	vertex[10].coordinate[2] = -0.5f;
+	initVertex[10].coordinate[0] = 0.5f;
+	initVertex[10].coordinate[1] = -0.5f;
+	initVertex[10].coordinate[2] = -0.5f;
 
-	vertex[11].coordinate[0] = -0.5f;
-	vertex[11].coordinate[1] = -0.5f;
-	vertex[11].coordinate[2] = -0.5f;
+	initVertex[11].coordinate[0] = -0.5f;
+	initVertex[11].coordinate[1] = -0.5f;
+	initVertex[11].coordinate[2] = -0.5f;
 
-	vertex[12].coordinate[0] = -0.5f;
-	vertex[12].coordinate[1] = -0.5f;
-	vertex[12].coordinate[2] = 0.5f;
+	initVertex[12].coordinate[0] = -0.5f;
+	initVertex[12].coordinate[1] = -0.5f;
+	initVertex[12].coordinate[2] = 0.5f;
 
-	vertex[13].coordinate[0] = -0.5f;
-	vertex[13].coordinate[1] = 0.5f;
-	vertex[13].coordinate[2] = 0.5f;
+	initVertex[13].coordinate[0] = -0.5f;
+	initVertex[13].coordinate[1] = 0.5f;
+	initVertex[13].coordinate[2] = 0.5f;
 
-	vertex[14].coordinate[0] = -0.5f;
-	vertex[14].coordinate[1] = 0.5f;
-	vertex[14].coordinate[2] = -0.5f;
+	initVertex[14].coordinate[0] = -0.5f;
+	initVertex[14].coordinate[1] = 0.5f;
+	initVertex[14].coordinate[2] = -0.5f;
 
-	vertex[15].coordinate[0] = 0.5f;
-	vertex[15].coordinate[1] = -0.5f;
-	vertex[15].coordinate[2] = 0.5f;
+	initVertex[15].coordinate[0] = 0.5f;
+	initVertex[15].coordinate[1] = -0.5f;
+	initVertex[15].coordinate[2] = 0.5f;
 
-	vertex[16].coordinate[0] = -0.5f;
-	vertex[16].coordinate[1] = -0.5f;
-	vertex[16].coordinate[2] = 0.5f;
+	initVertex[16].coordinate[0] = -0.5f;
+	initVertex[16].coordinate[1] = -0.5f;
+	initVertex[16].coordinate[2] = 0.5f;
 
-	vertex[17].coordinate[0] = -0.5f;
-	vertex[17].coordinate[1] = -0.5f;
-	vertex[17].coordinate[2] = -0.5f;
+	initVertex[17].coordinate[0] = -0.5f;
+	initVertex[17].coordinate[1] = -0.5f;
+	initVertex[17].coordinate[2] = -0.5f;
 
-	vertex[18].coordinate[0] = -0.5f;
-	vertex[18].coordinate[1] = 0.5f;
-	vertex[18].coordinate[2] = 0.5f;
+	initVertex[18].coordinate[0] = -0.5f;
+	initVertex[18].coordinate[1] = 0.5f;
+	initVertex[18].coordinate[2] = 0.5f;
 
-	vertex[19].coordinate[0] = -0.5f;
-	vertex[19].coordinate[1] = -0.5f;
-	vertex[19].coordinate[2] = 0.5f;
+	initVertex[19].coordinate[0] = -0.5f;
+	initVertex[19].coordinate[1] = -0.5f;
+	initVertex[19].coordinate[2] = 0.5f;
 
-	vertex[20].coordinate[0] = 0.5f;
-	vertex[20].coordinate[1] = -0.5f;
-	vertex[20].coordinate[2] = 0.5f;
+	initVertex[20].coordinate[0] = 0.5f;
+	initVertex[20].coordinate[1] = -0.5f;
+	initVertex[20].coordinate[2] = 0.5f;
 
-	vertex[21].coordinate[0] = 0.5f;
-	vertex[21].coordinate[1] = 0.5f;
-	vertex[21].coordinate[2] = 0.5f;
+	initVertex[21].coordinate[0] = 0.5f;
+	initVertex[21].coordinate[1] = 0.5f;
+	initVertex[21].coordinate[2] = 0.5f;
 
-	vertex[22].coordinate[0] = 0.5f;
-	vertex[22].coordinate[1] = -0.5f;
-	vertex[22].coordinate[2] = -0.5f;
+	initVertex[22].coordinate[0] = 0.5f;
+	initVertex[22].coordinate[1] = -0.5f;
+	initVertex[22].coordinate[2] = -0.5f;
 
-	vertex[23].coordinate[0] = 0.5f;
-	vertex[23].coordinate[1] = 0.5f;
-	vertex[23].coordinate[2] = -0.5f;
+	initVertex[23].coordinate[0] = 0.5f;
+	initVertex[23].coordinate[1] = 0.5f;
+	initVertex[23].coordinate[2] = -0.5f;
 
-	vertex[24].coordinate[0] = 0.5f;
-	vertex[24].coordinate[1] = -0.5f;
-	vertex[24].coordinate[2] = -0.5f;
+	initVertex[24].coordinate[0] = 0.5f;
+	initVertex[24].coordinate[1] = -0.5f;
+	initVertex[24].coordinate[2] = -0.5f;
 
-	vertex[25].coordinate[0] = 0.5f;
-	vertex[25].coordinate[1] = 0.5f;
-	vertex[25].coordinate[2] = 0.5f;
+	initVertex[25].coordinate[0] = 0.5f;
+	initVertex[25].coordinate[1] = 0.5f;
+	initVertex[25].coordinate[2] = 0.5f;
 
-	vertex[26].coordinate[0] = 0.5f;
-	vertex[26].coordinate[1] = -0.5f;
-	vertex[26].coordinate[2] = 0.5f;
+	initVertex[26].coordinate[0] = 0.5f;
+	initVertex[26].coordinate[1] = -0.5f;
+	initVertex[26].coordinate[2] = 0.5f;
 
-	vertex[27].coordinate[0] = 0.5f;
-	vertex[27].coordinate[1] = 0.5f;
-	vertex[27].coordinate[2] = 0.5f;
+	initVertex[27].coordinate[0] = 0.5f;
+	initVertex[27].coordinate[1] = 0.5f;
+	initVertex[27].coordinate[2] = 0.5f;
 
-	vertex[28].coordinate[0] = 0.5f;
-	vertex[28].coordinate[1] = 0.5f;
-	vertex[28].coordinate[2] = -0.5f;
+	initVertex[28].coordinate[0] = 0.5f;
+	initVertex[28].coordinate[1] = 0.5f;
+	initVertex[28].coordinate[2] = -0.5f;
 
-	vertex[29].coordinate[0] = -0.5f;
-	vertex[29].coordinate[1] = 0.5f;
-	vertex[29].coordinate[2] = -0.5f;
+	initVertex[29].coordinate[0] = -0.5f;
+	initVertex[29].coordinate[1] = 0.5f;
+	initVertex[29].coordinate[2] = -0.5f;
 
-	vertex[30].coordinate[0] = 0.5f;
-	vertex[30].coordinate[1] = 0.5f;
-	vertex[30].coordinate[2] = 0.5f;
+	initVertex[30].coordinate[0] = 0.5f;
+	initVertex[30].coordinate[1] = 0.5f;
+	initVertex[30].coordinate[2] = 0.5f;
 
-	vertex[31].coordinate[0] = -0.5f;
-	vertex[31].coordinate[1] = 0.5f;
-	vertex[31].coordinate[2] = -0.5f;
+	initVertex[31].coordinate[0] = -0.5f;
+	initVertex[31].coordinate[1] = 0.5f;
+	initVertex[31].coordinate[2] = -0.5f;
 
-	vertex[32].coordinate[0] = -0.5f;
-	vertex[32].coordinate[1] = 0.5f;
-	vertex[32].coordinate[2] = 0.5f;
+	initVertex[32].coordinate[0] = -0.5f;
+	initVertex[32].coordinate[1] = 0.5f;
+	initVertex[32].coordinate[2] = 0.5f;
 
-	vertex[33].coordinate[0] = 0.5f;
-	vertex[33].coordinate[1] = 0.5f;
-	vertex[33].coordinate[2] = 0.5f;
+	initVertex[33].coordinate[0] = 0.5f;
+	initVertex[33].coordinate[1] = 0.5f;
+	initVertex[33].coordinate[2] = 0.5f;
 
-	vertex[34].coordinate[0] = -0.5f;
-	vertex[34].coordinate[1] = 0.5f;
-	vertex[34].coordinate[2] = 0.5f;
+	initVertex[34].coordinate[0] = -0.5f;
+	initVertex[34].coordinate[1] = 0.5f;
+	initVertex[34].coordinate[2] = 0.5f;
 
-	vertex[35].coordinate[0] = 0.5f;
-	vertex[35].coordinate[1] = -0.5f;
-	vertex[35].coordinate[2] = 0.5f;
+	initVertex[35].coordinate[0] = 0.5f;
+	initVertex[35].coordinate[1] = -0.5f;
+	initVertex[35].coordinate[2] = 0.5f;
 
 }

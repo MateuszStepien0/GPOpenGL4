@@ -1,19 +1,21 @@
 ﻿  Game.cpp
-c:\users\c00230799\desktop\gpopengl4\sfmlopengl\game.cpp(265): error C2065: 'tempVect': undeclared identifier
-c:\users\c00230799\desktop\gpopengl4\sfmlopengl\game.cpp(267): error C2065: 'tempVect': undeclared identifier
-c:\users\c00230799\desktop\gpopengl4\sfmlopengl\game.cpp(268): error C2065: 'tempVect': undeclared identifier
-c:\users\c00230799\desktop\gpopengl4\sfmlopengl\game.cpp(269): error C2065: 'tempVect': undeclared identifier
-c:\users\c00230799\desktop\gpopengl4\sfmlopengl\game.cpp(271): error C2065: 'tempVect': undeclared identifier
-c:\users\c00230799\desktop\gpopengl4\sfmlopengl\game.cpp(271): error C2228: left of '.x' must have class/struct/union
-  c:\users\c00230799\desktop\gpopengl4\sfmlopengl\game.cpp(271): note: type is 'unknown-type'
-c:\users\c00230799\desktop\gpopengl4\sfmlopengl\game.cpp(272): error C2065: 'tempVect': undeclared identifier
-c:\users\c00230799\desktop\gpopengl4\sfmlopengl\game.cpp(272): error C2228: left of '.y' must have class/struct/union
-  c:\users\c00230799\desktop\gpopengl4\sfmlopengl\game.cpp(272): note: type is 'unknown-type'
-c:\users\c00230799\desktop\gpopengl4\sfmlopengl\game.cpp(273): error C2065: 'tempVect': undeclared identifier
-c:\users\c00230799\desktop\gpopengl4\sfmlopengl\game.cpp(273): error C2228: left of '.z' must have class/struct/union
-  c:\users\c00230799\desktop\gpopengl4\sfmlopengl\game.cpp(273): note: type is 'unknown-type'
-c:\users\c00230799\desktop\gpopengl4\sfmlopengl\game.cpp(299): error C2065: 'finalVertex': undeclared identifier
-  InitialMyMatrix3.cpp
-  Main.cpp
-  MyVector3.cpp
-  Generating Code...
+c:\users\c00230799\desktop\gpopengl4\sfmlopengl\game.cpp(271): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\c00230799\desktop\gpopengl4\sfmlopengl\game.cpp(272): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\c00230799\desktop\gpopengl4\sfmlopengl\game.cpp(273): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  SFMLOpenGL.vcxproj -> C:\Users\c00230799\Desktop\GPOpenGL4\Debug\SFMLOpenGL.exe
+  C:\SFML-2.5.0\bin\openal32.dll
+  C:\SFML-2.5.0\bin\sfml-audio-2.dll
+  C:\SFML-2.5.0\bin\sfml-audio-d-2.dll
+  C:\SFML-2.5.0\bin\sfml-graphics-2.dll
+  C:\SFML-2.5.0\bin\sfml-graphics-d-2.dll
+  C:\SFML-2.5.0\bin\sfml-network-2.dll
+  C:\SFML-2.5.0\bin\sfml-network-d-2.dll
+  C:\SFML-2.5.0\bin\sfml-system-2.dll
+  C:\SFML-2.5.0\bin\sfml-system-d-2.dll
+  C:\SFML-2.5.0\bin\sfml-window-2.dll
+  C:\SFML-2.5.0\bin\sfml-window-d-2.dll
+  11 File(s) copied
+  C:\Users\c00230799\Downloads\glew-1.13.0-win32\glew-1.13.0\bin\Release\Win32\glew32.dll
+  C:\Users\c00230799\Downloads\glew-1.13.0-win32\glew-1.13.0\bin\Release\Win32\glewinfo.exe
+  C:\Users\c00230799\Downloads\glew-1.13.0-win32\glew-1.13.0\bin\Release\Win32\visualinfo.exe
+  3 File(s) copied
