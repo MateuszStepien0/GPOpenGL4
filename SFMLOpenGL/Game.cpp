@@ -262,15 +262,15 @@ void Game::update()
 	for (int i = 0; i < 36; i++)
 	{
 		MyVector3 tempVec{ initVertex[i].coordinate[0], initVertex[i].coordinate[1], initVertex[i].coordinate[2] };
-		tempVec = MyMatrix3::scale(m_scale) * tempVect;
+		tempVec = MyMatrix3::scale(m_scale) * tempVec;
 		tempVec += m_displacmentVector;
-		tempVec = MyMatrix3::rotationX(m_rotationAngleX) * tempVect;
-		tempVec = MyMatrix3::rotationY(m_rotationAngleY) * tempVect;
-		tempVec = MyMatrix3::rotationZ(m_rotationAngleZ) * tempVect;
+		tempVec = MyMatrix3::rotationX(m_rotationAngleX) * tempVec;
+		tempVec = MyMatrix3::rotationY(m_rotationAngleY) * tempVec;
+		tempVec = MyMatrix3::rotationZ(m_rotationAngleZ) * tempVec;
 
-		vertex[i].coordinate[0] = tempVect.x;
-		vertex[i].coordinate[1] = tempVect.y;
-		vertex[i].coordinate[2] = tempVect.z;
+		vertex[i].coordinate[0] = tempVec.x;
+		vertex[i].coordinate[1] = tempVec.y;
+		vertex[i].coordinate[2] = tempVec.z;
 	}
 
 
